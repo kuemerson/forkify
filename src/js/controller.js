@@ -10,9 +10,6 @@ import addRecipeView from './views/addRecipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 ///////////////////////////////////////
-// if (module.hot) {
-//   module.hot.accept();
-// }
 
 const controlRecipes = async function () {
   try {
@@ -65,7 +62,6 @@ const controlServings = function (newServings) {
   model.updateServings(newServings);
 
   //update the recipe view
-  // recipeView.render(model.state.recipe);
   recipeView.update(model.state.recipe);
 };
 
@@ -115,10 +111,6 @@ const controlAddRecipe = async function (newRecipe) {
     console.error(error);
     addRecipeView.renderError(error.message);
   }
-};
-
-const newFeature = function () {
-  console.log('Welcome to the application!');
 };
 
 const init = function () {
