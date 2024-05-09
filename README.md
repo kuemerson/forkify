@@ -1,9 +1,10 @@
-## Forkify - Recipe App
+# Forkify - Recipe App
 Forkify is a recipe application written in vanilla JavaScript that allows users to search and display recipes from the [Forkify API](https://forkify-api.herokuapp.com/v2). Forkify uses common JavaScript build tools such as Babel and Parcel to ensure backwards compatibility with older browsers. 
 
 This project was from Jonas Schmedtmann's 'The Complete JavaScript Course' on Udemy. All JavaScript was written by me, but the SASS styling was provided as is. 
 
-- This project is currently hosted on Netlify and can be explored [here](https://forkify-kurtis.netlify.app/).
+This project is currently hosted on Netlify and can be explored [here](https://forkify-kurtis.netlify.app/).
+
 ![image](/forkify.png)
 
 
@@ -24,21 +25,21 @@ This project was from Jonas Schmedtmann's 'The Complete JavaScript Course' on Ud
 
 ![forkify-architecture-recipe-loading](/forkify-architecture-recipe-loading.png)
 
-# Part 1: FlowChart (User search, Search Pagination & Async recipe rendering)
+### Part 1: FlowChart (User search, Search Pagination & Async recipe rendering)
 - Add recipe search functionality
 - Renders paginated search results and navigation
 - Renders recipe asynchronously from API
   
 ![forkify-flowchart-part-1](/forkify-flowchart-part-1.png)
 
-# Part 2: FlowChart ( Bookmark Recipes, Render Bookmarked Recipe, Update Ingredients)
+### Part 2: FlowChart ( Bookmark Recipes, Render Bookmarked Recipe, Update Ingredients)
 - Bookmark recipes and store them in browser local storage.
 - Render the bookmarked recipe when selected by user.
 - Update the ingredient amounts when user changes servings.
   
 ![forkify-flowchart-part-2](forkify-flowchart-part-2.png)
 
-# Part 3: FlowChart ( Show Add Recipe Form, Upload Recipe, Render User Created Recipe)
+### Part 3: FlowChart ( Show Add Recipe Form, Upload Recipe, Render User Created Recipe)
 - Show new recipe from when user click new recipe.
 - Upload new recipe to API.
 - Render the newly created user recipe.
